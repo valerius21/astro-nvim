@@ -9,7 +9,6 @@ return {
       "python",
       "go",
       "rust",
-      "php",
     })
   end,
 }

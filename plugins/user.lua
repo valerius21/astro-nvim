@@ -31,4 +31,9 @@ return {
     opts = {},
     event = "User AstroFile",
   },
+  -- Adding tmux navgation
+  {
+    "christoomey/vim-tmux-navigator",
+    lazy = false,
+  },
 }

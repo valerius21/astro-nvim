@@ -24,6 +24,10 @@ return {
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
     -- ["<leader>a"] = {"<cmd>echo 'Hello world' <cr>", desc = "Say hello world"},
     -- TODO: add keybinds for buffer resize with Ctrl+Shift+<arrow key>
+    ["<C-h>"] = { "<cmd>TmuxNavigateLeft<cr>", desc = "window left" },
+    ["<C-l>"] = { "<cmd>TmuxNavigateRight<cr>", desc = "window right" },
+    ["<C-j>"] = { "<cmd>TmuxNavigateDown<cr>", desc = "window down" },
+    ["<C-k>"] = { "<cmd>TmuxNavigateUp<cr>", desc = "window up" },
   },
   t = {
     -- setting a mapping to false will disable it
